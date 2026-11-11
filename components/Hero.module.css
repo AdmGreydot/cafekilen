@@ -21,6 +21,7 @@
 }
 
 .logo p{
+    color: var(--accent);
     font-weight: 700;
     font-size: 24px;
 }
@@ -83,12 +84,7 @@
         max-width: unset;
     }
 }
-@media (max-width: 600px) {
-    .logo p{
-        display: none
-    }
 
-}
 @media (max-width: 560px) {
     .accent{
         font-size: 46px;
@@ -104,3 +100,4 @@
         margin-bottom: 20px;
     }
 }
+
