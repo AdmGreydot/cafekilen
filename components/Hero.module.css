@@ -92,5 +92,15 @@
 @media (max-width: 560px) {
     .accent{
         font-size: 46px;
+        margin-bottom: 20px;
+    }
+    .heroImage{
+        height: 300px;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    .group>p{
+        margin-bottom: 20px;
     }
 }
