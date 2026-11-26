@@ -289,6 +289,7 @@ export async function POST(request: Request) {
     }
     const checkoutSession = await stripe.checkout.sessions.create({
       mode: 'payment',
+      customer_email: email,
       line_items: [
           {
               price_data: {
