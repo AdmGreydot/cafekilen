@@ -25,7 +25,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="da" className={`${kalamFont.variable} ${libertinusSerif.variable}`}>
       <body>
         {children}
-        <Footer/>
       </body>
     </html>
   );
